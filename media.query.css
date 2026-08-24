@@ -1,0 +1,1665 @@
+
+@media (max-width: 1024px) {
+
+    .navbar {
+        padding: 0 25px;
+        justify-content: space-between;
+        gap: 15px;
+        flex-wrap: nowrap;
+    }
+
+    .logo {
+        flex-shrink: 0;
+    }
+
+    .logo img {
+        width: 125px;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    .nav-links a {
+        padding: 0 6px;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .nav-btn {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .btn-outline {
+        padding: 9px 15px;
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+
+    .hero-content {
+        margin-top: 70px;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    .script-text {
+        font-size: 30px;
+    }
+
+    .description {
+        max-width: 380px;
+    }
+
+
+    /* DISCOVER IMAGE */
+
+    .img-container {
+        min-height: 70svh;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .discover-conatiner-1 {
+        padding-top: 50px;
+        padding-bottom: 70px;
+        gap: 30px;
+    }
+
+    .stroy-text {
+        width: 50%;
+        padding-left: 50px;
+        padding-bottom: 15px;
+        box-sizing: border-box;
+    }
+
+    .stroy-text span {
+        font-size: 40px;
+    }
+
+    .stroy-text h1 {
+        font-size: 46px;
+        line-height: 1.1;
+    }
+
+    .stroy-para p {
+        font-size: 19px;
+        line-height: 1.55;
+    }
+
+    .discover-img {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .stroy-img {
+        width: 90%;
+        height: 350px;
+        margin-right: 25px;
+    }
+
+    .reserve {
+        width: 40%;
+    }
+
+    /* Restaurant Info */
+    .restaurant-info {
+        width: calc(100% - 50px);
+        margin: -20px auto 5px;
+        padding: 0 20px;
+    }
+
+    .info-item {
+        gap: 12px;
+        padding: 8px 12px;
+    }
+
+    .info-content h3 {
+        font-size: 16px;
+    }
+
+    .info-content p {
+        font-size: 8px;
+    }
+
+
+    /* Menu Heading */
+    .menu-heading-wrapper {
+        padding: 60px 20px 20px;
+    }
+
+    .menu-main-heading {
+        font-size: 40px;
+    }
+
+
+    /* Menu Section */
+    .menu-section {
+        max-width: 850px;
+        padding: 70px 30px;
+    }
+
+    .menu-item {
+        gap: 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .menu-item.right-img {
+        margin-right: 0 !important;
+    }
+
+    .menu-item .left-text {
+        padding: 20px 0 0 30px !important;
+    }
+
+    .menu-img-wrapper {
+        flex: 0 0 380px;
+        width: 380px;
+        height: 270px;
+    }
+
+    .menu-text h2 {
+        font-size: 30px;
+    }
+
+    .menu-text p {
+        font-size: 16px;
+    }
+
+
+    /* Dining */
+    .dining-events {
+        padding: 10px 30px 70px;
+    }
+
+    .dining-events h2 {
+        font-size: 38px;
+    }
+
+
+    /* Popular Dishes */
+    .dishes-section {
+        width: calc(100% - 40px);
+        padding: 50px 30px 40px;
+    }
+
+    .dishes-grid {
+        gap: 20px;
+    }
+
+    .dish-img {
+        height: 280px;
+    }
+
+    .dish-name {
+        font-size: 21px;
+    }
+
+
+    .services-panel {
+        width: calc(100% - 50px);
+        max-width: 900px;
+        height: 65vh;
+        grid-template-columns: 1.1fr 1fr;
+        margin: 0 auto 30px;
+        border-radius: 12px;
+    }
+
+    .panel-copy {
+        padding: 35px 35px;
+        gap: 10px;
+    }
+
+    .panel-kicker {
+        font-size: 22px;
+    }
+
+    .panel-title {
+        font-size: 34px;
+        letter-spacing: .07em;
+    }
+
+    .panel-text {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .panel-subtitle {
+        font-size: 25px;
+        letter-spacing: .06em;
+    }
+
+    .panel-note {
+        font-size: 13px;
+    }
+
+    .panel-media img {
+        object-position: center;
+    }
+
+    .reviews-section {
+        width: calc(100% - 50px);
+        max-width: 950px;
+        margin: 35px auto 0;
+        padding: 35px 0;
+    }
+
+    .reviews-title {
+        font-size: 42px;
+    }
+
+    .reviews-scroller {
+        --card-h: 300px;
+        gap: 18px;
+        padding: 12px 10px;
+    }
+
+    .review-photo {
+        flex: 0 0 360px;
+        height: var(--card-h);
+    }
+
+    .review-card {
+        flex: 0 0 285px;
+        height: var(--card-h);
+    }
+
+    .reserve-section {
+        min-height: auto;
+        margin-top: 35px;
+    }
+
+    .reserve-hero {
+        min-height: 65vh;
+        flex-basis: 65vh;
+        padding: 30px 5vw 40px;
+        background-attachment: scroll;
+        background-position: center center;
+    }
+
+    .reserve-title {
+        font-size: 36px;
+    }
+
+    .reserve-form {
+        max-width: 650px;
+        gap: 14px;
+    }
+
+    .reserve-footer {
+        grid-template-columns: 1fr 1.3fr 1fr;
+        gap: 18px;
+        padding: 30px 5vw 15px;
+    }
+
+    .reserve-links {
+        margin-left: 0;
+    }
+
+    .reserve-contact {
+        margin-left: 20px;
+    }
+
+}
+
+
+/* =========================
+   MOBILE / TABLET
+========================= */
+
+@media (max-width: 768px) {
+
+
+    .navbar {
+        padding: 5px 20px;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        flex-wrap: nowrap;
+        /* margin-top: 10px; */
+    }
+
+    .logo {
+        flex-shrink: 0;
+    }
+
+    .logo img {
+        width: 100px;
+        margin-top: 25px;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        min-width: 0;
+    }
+
+    .nav-links a {
+        padding: 0 5px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        white-space: nowrap;
+    }
+
+    .nav-btn {
+        flex-shrink: 0;
+        white-space: nowrap;
+    }
+
+    .btn-outline {
+        padding: 5px 10px;
+        font-size: 10px;
+        letter-spacing: 1px;
+        white-space: nowrap;
+    }
+
+
+    /* HERO */
+
+    .hero-section {
+        min-height: 85vh;
+        height: 85svh;
+    }
+
+    .hero-content {
+        width: 100%;
+        max-width: 650px;
+        margin-top: 40px;
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    .script-text {
+        font-size: 28px;
+    }
+
+    h1 {
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    .description {
+        max-width: 390px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .menu-btn {
+        padding: 11px 28px;
+    }
+
+
+    /* DISCOVER */
+
+    .img-container {
+        min-height: 60svh;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        background-position: center center;
+    }
+
+    .eden-title {
+        font-size: clamp(24px, 5vw, 36px);
+        top: 45%;
+        white-space: nowrap;
+    }
+
+    .discover-conatiner-1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+    .stroy-text {
+        width: 100%;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 0;
+        box-sizing: border-box;
+    }
+
+    .stroy-text span {
+        font-size: 34px;
+    }
+
+    .stroy-text h1 {
+        font-size: 40px;
+        line-height: 1.1;
+        margin-top: 15px;
+    }
+
+    .stroy-para p {
+        font-size: 17px;
+        line-height: 1.55;
+    }
+
+    .reserve {
+        width: fit-content;
+        min-width: 140px;
+        padding-top: 12px;
+    }
+
+    .reserve span {
+        font-size: 15px;
+    }
+
+    .discover-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .stroy-img {
+        width: calc(100% - 40px);
+        height: 350px;
+        margin-right: 0;
+        object-fit: cover;
+    }
+
+    /* =====================
+       RESTAURANT INFO
+    ===================== */
+
+    .restaurant-info {
+        width: calc(100% - 30px);
+        margin: -10px auto 0;
+        min-height: auto;
+        padding: 10px 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .info-item {
+        width: 100%;
+        height: auto;
+        min-height: 65px;
+        padding: 10px 8px;
+        gap: 15px;
+    }
+
+    /* Horizontal dividers instead of vertical */
+    .info-item:not(:last-child)::after {
+        right: 0;
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+    }
+
+    .icon {
+        width: 32px;
+        height: 32px;
+    }
+
+    .icon svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .info-content {
+        min-width: 0;
+    }
+
+    .info-content h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .info-content p {
+        font-size: 9px;
+        white-space: normal;
+        line-height: 1.4;
+    }
+
+
+    /* =====================
+       MENU HEADING
+    ===================== */
+
+    .menu-heading-wrapper {
+        padding: 55px 15px 15px;
+    }
+
+    .menu-main-heading {
+        font-size: 34px;
+        line-height: 1.2;
+        letter-spacing: 1px;
+    }
+
+    .menu-sub-heading {
+        font-size: 19px;
+        letter-spacing: 1.5px;
+    }
+
+    .btn-wrap {
+        transform: scale(.92);
+    }
+
+
+    /* =====================
+       MENU SECTION
+    ===================== */
+
+    .menu-section {
+        width: 100%;
+        max-width: 100%;
+        padding: 45px 20px 50px;
+        overflow: hidden;
+    }
+
+    /* Hide center knife on mobile.
+       Prevents it from interfering with content. */
+    .knife-decoration {
+        display: none;
+    }
+
+    /* Every menu item becomes vertical */
+    .menu-item,
+    .menu-item.left-img,
+    .menu-item.right-img {
+        width: 100%;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
+
+        gap: 22px;
+
+        margin: 0 0 60px 0 !important;
+    }
+
+    /* Image */
+    .menu-img-wrapper {
+        flex: none;
+        width: 100%;
+        max-width: 500px;
+        height: 260px;
+    }
+
+    /* Text */
+    .menu-text,
+    .menu-item .left-text {
+        width: 100%;
+        max-width: 500px;
+        padding: 0 !important;
+        text-align: center;
+    }
+
+    .menu-text h2 {
+        font-size: 29px;
+        margin-bottom: 12px;
+    }
+
+    .menu-text p {
+        max-width: 100%;
+        font-size: 15px;
+        line-height: 1.6;
+        margin: 0 auto 15px;
+    }
+
+    .menu-text .price {
+        font-size: 20px;
+    }
+
+
+    /* =====================
+       DINING EVENTS
+    ===================== */
+
+    .dining-events {
+        padding: 5px 20px 60px;
+    }
+
+    .dining-events h2 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .dining-events p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .btn-group {
+        gap: 12px;
+    }
+
+    .dining-events .btn-outline {
+        padding: 11px 24px;
+        font-size: 13px;
+    }
+
+
+    /* =====================
+       POPULAR DISHES
+    ===================== */
+
+    .dishes-section {
+        width: calc(100% - 30px);
+        margin: 30px auto;
+        padding: 45px 18px 35px;
+        border-radius: 10px;
+    }
+
+    .dishes-kicker {
+        font-size: 24px;
+        margin-top: -25px;
+    }
+
+    .dishes-heading {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 25px;
+    }
+
+    .dishes-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .dish-card {
+        padding-top: 15px;
+    }
+
+    .dish-img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .dish-name {
+        font-size: 23px;
+    }
+
+    .dish-price {
+        font-size: 12px;
+    }
+
+    .dish-desc {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+
+    .services-panel {
+        width: calc(100% - 30px);
+        max-width: 650px;
+        height: auto;
+        min-height: 0;
+
+        grid-template-columns: 1fr;
+        margin: 0 auto 30px;
+
+        border-radius: 12px;
+    }
+
+    .panel-media {
+        order: 1;
+        width: 100%;
+        height: 300px;
+    }
+
+    .panel-media img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .panel-copy {
+        order: 2;
+
+        padding: 35px 30px 40px;
+        gap: 10px;
+
+        margin-bottom: 0;
+    }
+
+    .panel-kicker {
+        font-size: 21px;
+    }
+
+    .panel-title {
+        font-size: 32px;
+        letter-spacing: .06em;
+    }
+
+    .panel-text {
+        font-size: 15px;
+        line-height: 1.6;
+        max-width: 100%;
+    }
+
+    .panel-subtitle {
+        font-size: 24px;
+        letter-spacing: .05em;
+    }
+
+    .panel-note {
+        font-size: 13px;
+    }
+
+    .services-panel:hover {
+        transform: none;
+    }
+
+    .reviews-section {
+        width: calc(100% - 30px);
+        max-width: 650px;
+        margin: 30px auto 0;
+        padding: 30px 0;
+    }
+
+    .reviews-kicker {
+        font-size: 16px;
+    }
+
+    .green-line-2 {
+        width: 30%;
+        margin-bottom: 13px;
+    }
+
+    .reviews-title {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    /* Mobile carousel */
+    .reviews-scroller {
+        --card-h: 300px;
+
+        display: flex !important;
+
+        gap: 14px;
+
+        padding: 10px;
+
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        scroll-snap-type: x mandatory;
+        scroll-padding-left: 10px;
+
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+
+        border-radius: 12px;
+    }
+
+    .reviews-scroller::-webkit-scrollbar {
+        display: none;
+    }
+
+    /*
+       Photo becomes the featured
+       first slide.
+    */
+
+    .review-photo {
+        position: relative;
+        left: auto;
+
+        flex: 0 0 72%;
+        width: 72% !important;
+        height: var(--card-h);
+
+        scroll-snap-align: start;
+
+        box-shadow: none;
+        border-radius: 10px;
+    }
+
+    .review-card {
+        flex: 0 0 72%;
+        height: var(--card-h);
+
+        scroll-snap-align: start;
+
+        padding: 18px;
+
+        border-radius: 10px;
+
+        gap: 12px;
+    }
+
+    .review-top {
+        gap: 8px;
+    }
+
+    .reviewer {
+        font-size: 13px;
+    }
+
+    .stars {
+        gap: 3px;
+    }
+
+    .stars svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .review-text {
+        font-size: 13px;
+        line-height: 1.55;
+    }
+
+    .reserve-section {
+        min-height: auto;
+        margin: 30px auto 15px;
+    }
+
+    .reserve-hero {
+        min-height: auto;
+        flex-basis: auto;
+        padding: 35px 20px 45px;
+
+        background-attachment: scroll;
+        background-position: center center;
+    }
+
+    .reserve-kicker {
+        font-size: 15px;
+        letter-spacing: .10em;
+        text-align: center;
+    }
+
+    .reserve-title {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 22px;
+    }
+
+    .reserve-form {
+        width: 100%;
+        max-width: 500px;
+        grid-template-columns: 1fr;
+        gap: 13px;
+    }
+
+    .form-field {
+        width: 100%;
+    }
+
+    .form-field input {
+        height: 40px;
+    }
+
+    .sub-form input {
+        padding: 10px;
+    }
+
+    .reserve-btn {
+        width: auto;
+        min-width: 130px;
+        height: 40px;
+        margin-top: 3px;
+    }
+
+    .reserve-footer {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        padding: 30px 25px 25px;
+        text-align: center;
+    }
+
+    .reserve-links {
+        margin-left: 0;
+        justify-items: center;
+    }
+
+    .reserve-sub .sub-line {
+        justify-content: center;
+    }
+
+    .sub-form {
+        width: 100%;
+        max-width: 400px;
+        margin: 10px auto 0;
+    }
+
+    .reserve-contact {
+        margin-left: 0;
+    }
+
+    .reserve-social {
+        justify-content: center;
+    }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 550px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        padding: 0 15px;
+        gap: 8px;
+    }
+
+    .logo img {
+        width: 85px;
+    }
+
+    .nav-links {
+        gap: 2px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    .nav-links a {
+        padding: 0 3px;
+        font-size: 9px;
+        letter-spacing: .5px;
+        white-space: nowrap;
+    }
+
+    .btn-outline {
+        padding: 7px 9px;
+        font-size: 9px;
+        white-space: nowrap;
+    }
+
+
+    /* HERO */
+
+    .hero-content {
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+
+    .script-text {
+        font-size: 25px;
+    }
+
+    h1 {
+        font-size: 29px;
+        line-height: 1.2;
+        margin: 16px 0;
+    }
+
+    .description {
+        max-width: 320px;
+        font-size: 13px;
+    }
+
+    .menu-btn {
+        padding: 10px 24px;
+        font-size: 12px;
+    }
+
+
+    /* DISCOVER */
+
+    .img-container {
+        min-height: 48svh;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        background-position: center center;
+    }
+
+    .eden-title {
+        font-size: 24px;
+        top: 45%;
+    }
+
+    .discover-conatiner-1 {
+        gap: 35px;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .stroy-text {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .stroy-text span {
+        font-size: 30px;
+    }
+
+    .stroy-text h1 {
+        font-size: 35px;
+        line-height: 1.15;
+        margin-top: 10px;
+    }
+
+    .stroy-para p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .reserve {
+        min-width: 125px;
+        padding-top: 10px;
+    }
+
+    .reserve span {
+        font-size: 13px;
+    }
+
+    .stroy-img {
+        width: calc(100% - 30px);
+        height: 300px;
+        margin-right: 0;
+    }
+
+    .restaurant-info {
+        width: calc(100% - 20px);
+        padding: 8px 12px;
+    }
+
+    .info-item {
+        min-height: 62px;
+        padding: 9px 5px;
+    }
+
+    .info-content h3 {
+        font-size: 15px;
+    }
+
+    .info-content p {
+        font-size: 8px;
+    }
+
+
+    /* Menu */
+    .menu-heading-wrapper {
+        padding-top: 45px;
+    }
+
+    .menu-main-heading {
+        font-size: 29px;
+    }
+
+    .menu-sub-heading {
+        font-size: 17px;
+    }
+
+    .menu-section {
+        padding: 35px 15px 45px;
+    }
+
+    .menu-item,
+    .menu-item.left-img,
+    .menu-item.right-img {
+        margin-bottom: 50px !important;
+        gap: 18px;
+    }
+
+    .menu-img-wrapper {
+        height: 230px;
+    }
+
+    .menu-text h2 {
+        font-size: 26px;
+    }
+
+    .menu-text p {
+        font-size: 14px;
+    }
+
+    .menu-text .price {
+        font-size: 19px;
+    }
+
+
+    /* Dining */
+    .dining-events h2 {
+        font-size: 30px;
+    }
+
+    .dining-events p {
+        font-size: 14px;
+    }
+
+    .dining-events p br {
+        display: none;
+    }
+
+    .btn-group {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .dining-events .btn-outline {
+        width: 100%;
+        max-width: 250px;
+    }
+
+
+    /* Dishes */
+    .dishes-section {
+        width: calc(100% - 20px);
+        padding: 40px 15px 30px;
+    }
+
+    .dishes-heading {
+        font-size: 28px;
+    }
+
+    .dish-img {
+        height: 240px;
+    }
+
+    .dish-name {
+        font-size: 21px;
+    }
+
+    .services-panel {
+        width: calc(100% - 24px);
+        max-width: 500px;
+        margin: 0 auto 25px;
+        border-radius: 10px;
+    }
+
+    .panel-media {
+        height: 250px;
+    }
+
+    .panel-copy {
+        padding: 28px 22px 32px;
+        gap: 9px;
+    }
+
+    .panel-kicker {
+        font-size: 19px;
+        letter-spacing: .08em;
+    }
+
+    .panel-title {
+        font-size: 29px;
+        letter-spacing: .04em;
+    }
+
+    .panel-text {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+
+    .panel-subtitle {
+        font-size: 22px;
+        letter-spacing: .03em;
+    }
+
+    .panel-note {
+        font-size: 12px;
+        line-height: 1.4;
+    }
+
+    .reviews-section {
+        width: calc(100% - 24px);
+        max-width: 500px;
+        margin-top: 25px;
+        padding: 25px 0;
+    }
+
+    .reviews-kicker {
+        font-size: 15px;
+    }
+
+    .green-line-2 {
+        width: 35%;
+        margin-bottom: 11px;
+    }
+
+    .reviews-title {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+
+    .reviews-scroller {
+        --card-h: 270px;
+
+        gap: 12px;
+        padding: 8px;
+
+        scroll-padding-left: 8px;
+    }
+
+    .review-photo {
+        flex: 0 0 78%;
+        width: 78% !important;
+        height: var(--card-h);
+
+        border-radius: 9px;
+    }
+
+    .review-card {
+        flex: 0 0 78%;
+        height: var(--card-h);
+
+        padding: 15px;
+
+        border-radius: 9px;
+        gap: 9px;
+    }
+
+    .reviewer {
+        font-size: 12px;
+    }
+
+    .stars svg {
+        width: 13px;
+        height: 13px;
+    }
+
+    .review-text {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .reserve-section {
+        margin-top: 25px;
+    }
+
+    .reserve-hero {
+        padding: 30px 18px 40px;
+    }
+
+    .reserve-kicker {
+        font-size: 13px;
+    }
+
+    .reserve-title {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .reserve-form {
+        gap: 12px;
+    }
+
+    .form-label {
+        font-size: 11px;
+    }
+
+    .form-field input {
+        height: 38px;
+        font-size: 13px;
+    }
+
+    .reserve-btn {
+        height: 38px;
+        padding: 0 16px;
+        font-size: 13px;
+    }
+
+    .reserve-footer {
+        padding: 28px 18px 22px;
+        gap: 25px;
+    }
+
+    .reserve-links {
+        gap: 7px;
+    }
+
+    .reserve-links a {
+        font-size: 13px;
+    }
+
+    .reserve-sub .sub-line {
+        font-size: 14px;
+    }
+
+    .sub-form {
+        gap: 6px;
+    }
+
+    .sub-form input,
+    .sub-form button {
+        height: 36px;
+        font-size: 12px;
+    }
+
+    .contact-title {
+        font-size: 15px;
+    }
+
+    .contact-line {
+        font-size: 13px;
+    }
+}
+
+
+/* =========================
+   EXTRA SMALL MOBILE
+========================= */
+
+@media (max-width: 400px) {
+
+    /* NAVBAR */
+
+    .navbar {
+        padding: 0 10px;
+        gap: 5px;
+    }
+
+    .logo img {
+        width: 72px;
+        margin-top: 10px;
+    }
+
+    .nav-links {
+        gap: 1px;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+
+    .nav-links a {
+        padding: 0 2px;
+        font-size: 8px;
+        letter-spacing: 0;
+        white-space: nowrap;
+    }
+
+    .btn-outline {
+        padding: 6px 7px;
+        font-size: 8px;
+        letter-spacing: 0;
+        white-space: nowrap;
+    }
+
+
+    /* HERO */
+
+    .hero-content {
+        margin-top: 40px;
+        padding: 0 15px;
+    }
+
+    .script-text {
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 24px;
+        line-height: 1.25;
+    }
+
+    .description {
+        max-width: 280px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .menu-btn {
+        padding: 9px 20px;
+        font-size: 11px;
+    }
+
+
+    /* DISCOVER */
+
+    .img-container {
+        min-height: 45svh;
+    }
+
+    .eden-title {
+        font-size: 21px;
+    }
+
+    .discover-conatiner-1 {
+        gap: 30px;
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+
+    .stroy-text {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .stroy-text span {
+        font-size: 27px;
+    }
+
+    .stroy-text h1 {
+        font-size: 31px;
+    }
+
+    .stroy-para p {
+        font-size: 14px;
+        line-height: 1.55;
+    }
+
+    .reserve {
+        min-width: 115px;
+    }
+
+    .reserve span {
+        font-size: 12px;
+    }
+
+    .stroy-img {
+        width: calc(100% - 25px);
+        height: 270px;
+    }
+
+    .restaurant-info {
+        width: calc(100% - 16px);
+    }
+
+    .info-item {
+        gap: 11px;
+        min-height: 60px;
+    }
+
+    .icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .icon svg {
+        width: 23px;
+        height: 23px;
+    }
+
+    .info-content h3 {
+        font-size: 14px;
+    }
+
+    .info-content p {
+        font-size: 7.5px;
+    }
+
+
+    .menu-main-heading {
+        font-size: 26px;
+    }
+
+    .menu-sub-heading {
+        font-size: 16px;
+    }
+
+    .menu-img-wrapper {
+        height: 210px;
+    }
+
+    .menu-text h2 {
+        font-size: 24px;
+    }
+
+    .menu-text p {
+        font-size: 13px;
+    }
+
+    .dining-events h2 {
+        font-size: 27px;
+    }
+
+    .dishes-heading {
+        font-size: 25px;
+    }
+
+    .dish-img {
+        height: 210px;
+    }
+
+    .services-panel {
+        width: calc(100% - 18px);
+        border-radius: 9px;
+    }
+
+    .panel-media {
+        height: 215px;
+    }
+
+    .panel-copy {
+        padding: 24px 18px 28px;
+    }
+
+    .panel-kicker {
+        font-size: 17px;
+    }
+
+    .panel-title {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .panel-text {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    .panel-subtitle {
+        font-size: 20px;
+    }
+
+    .panel-note {
+        font-size: 11px;
+    }
+
+
+    .reviews-section {
+        width: calc(100% - 18px);
+        max-width: 380px;
+        margin-top: 22px;
+        padding: 22px 0;
+    }
+
+    .reviews-kicker {
+        font-size: 14px;
+    }
+
+    .green-line-2 {
+        width: 40%;
+        margin-bottom: 10px;
+    }
+
+    .reviews-title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .reviews-scroller {
+        --card-h: 245px;
+
+        gap: 10px;
+        padding: 7px;
+
+        scroll-padding-left: 7px;
+    }
+
+    .review-photo {
+        flex: 0 0 82%;
+        width: 82% !important;
+        height: var(--card-h);
+
+        border-radius: 8px;
+    }
+
+    .review-card {
+        flex: 0 0 82%;
+        height: var(--card-h);
+
+        padding: 12px;
+
+        border-radius: 8px;
+        gap: 8px;
+    }
+
+    .reviewer {
+        font-size: 11px;
+        letter-spacing: .07em;
+    }
+
+    .stars {
+        gap: 2px;
+    }
+
+    .stars svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .review-text {
+        font-size: 11.5px;
+        line-height: 1.45;
+    }
+
+    .reserve-hero {
+        padding: 28px 15px 35px;
+    }
+
+    .reserve-kicker {
+        font-size: 12px;
+    }
+
+    .reserve-title {
+        font-size: 25px;
+    }
+
+    .reserve-form {
+        gap: 10px;
+    }
+
+    .form-field input {
+        height: 37px;
+        padding: 7px 9px;
+    }
+
+    .reserve-btn {
+        min-width: 120px;
+        height: 37px;
+        font-size: 12px;
+    }
+
+    .reserve-footer {
+        padding: 25px 15px 20px;
+    }
+
+    .sub-form {
+        flex-direction: column;
+    }
+
+    .sub-form input,
+    .sub-form button {
+        width: 100%;
+    }
+}
